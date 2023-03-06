@@ -1,0 +1,106 @@
+body{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+/* Add a black background color to the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #151019;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #3D506A;
+    color: black;
+  }
+  
+  /* Style the "active" element to highlight the current page */
+  .topnav a.active {
+    background-color: #9CAF88;
+    color: white;
+  }
+  
+  /* Style the search box inside the navigation bar */
+  .fa-search{
+    position: relative;
+    left: 410px;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 15px; 
+    top: 10px;
+  }
+  .topnav input[type=text] {
+    position: relative;
+    left: 400px;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-left: 16px;
+    font-size: 15px;
+    top: 10px;
+  }
+  h1{
+    font-size: 80px;
+    margin: 0;
+  }
+  h2{
+    font-size: 60px;
+    margin: 0%;
+  }
+  p{
+    font-size: 20px;
+    padding-bottom: 100px;
+  }
+  .simple-form{
+    border-radius: 5px;
+    /* background-color: #f2f2f2; */
+    padding: 20px;
+  }
+  input[type=text], select {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* box-sizing: border-box; */
+  }
+  .fa-brands{
+    font-size: 35px;
+    padding: 10px;
+  }
+  .btn {
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #008080;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin: 40px;
+  }
+  
+  .btn:hover {
+    background: #029999;
+    text-decoration: none;
+  }
+  .count{
+    margin-right: 2px;}
+  #country{
+    margin-right: 350px;
+  }
